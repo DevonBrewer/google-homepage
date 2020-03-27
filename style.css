@@ -1,0 +1,144 @@
+:root{
+    --search-bar-height:25px;
+} 
+
+body{
+
+background-color: #fcfcfc;
+
+}
+
+.top-anchor{
+
+    font-size: 15px;
+    color:  rgba(0, 0, 0, 0.87);
+    font-family:arial, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}   
+
+a:hover{text-decoration: underline;}
+
+
+
+.top-left{
+    position: fixed;
+    left:10px;
+    top:10px;
+}
+
+.top-right{
+    position: fixed;
+    right:10px;
+    top:10px;
+    }
+
+  .apps-logo{
+
+        height:17px;
+        width: 17px;
+           
+    }
+
+    .apps-logo:hover{
+
+        height:15px;
+        width: 15px;
+        text-decoration: none;
+    }
+
+    
+    #sign-in {
+
+        background-color: #3895ff;
+        color: white;
+        border-radius: 5px;
+        padding:5px;
+        margin:0px;
+        border:0px;
+
+    }
+
+    .logo{
+        display: block;
+        height: 125px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:150px;
+        border:10px;
+        padding: 20px;
+        border-left: none;
+        border-right: none;
+       
+        
+    }
+
+
+  
+
+
+   
+
+    .search-container{
+       display: flex; 
+       justify-content: center /* keeps the flexbox centered in page*/;
+       flex-direction: row; /*sets the row*/
+       align-items: center /* centers inside the flex*/; 
+       border-width: 2px;
+       border-style: solid;
+       border-radius: 20px;
+       padding: 5x;
+       box-sizing: content-box;
+       width: 500px;
+       margin:0 auto;  /* need to set margins affter defing width"*/
+       
+    }
+      
+    
+    #searchbar{
+        display:block;
+        height:var(--search-bar-height);
+        width: 440px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0px;
+        margin:0px;
+        border-right: none;
+        border-left: none;
+        outline: none;
+        
+
+    }
+
+
+    #mic{
+        height: var(--search-bar-height); 
+            
+    }
+
+    #magglass{
+            height: var(--search-bar-height); 
+             }
+
+    
+
+    
+  
+#bottom-buttons-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+    }
+
+    .bottom-button{
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    padding:3px;
+    margin: 6px;
+    box-shadow: none;
+
+    }

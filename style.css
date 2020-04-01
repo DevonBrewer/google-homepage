@@ -8,6 +8,18 @@ background-color: #fcfcfc;
 
 }
 
+input {
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    padding: 10px;
+
+
+}
+
+
 .top-anchor{
 
     font-size: 15px;
@@ -85,7 +97,8 @@ a:hover{text-decoration: underline;}
        justify-content: center /* keeps the flexbox centered in page*/;
        flex-direction: row; /*sets the row*/
        align-items: center /* centers inside the flex*/; 
-       border-width: 2px;
+       border-width: 1px;
+       border-color: #dfe1e5;;
        border-style: solid;
        border-radius: 20px;
        padding: 5x;
@@ -102,7 +115,7 @@ a:hover{text-decoration: underline;}
         width: 440px;
         margin-right: auto;
         margin-left: auto;
-        padding: 0px;
+        padding: 5px;
         margin:0px;
         border-right: none;
         border-left: none;
